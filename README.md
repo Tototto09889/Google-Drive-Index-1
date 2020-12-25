@@ -2,9 +2,7 @@
 
 Menggabungkan [Cloudflare Workers](https://workers.cloudflare.com/) dan [Google Drive](https://www.google.com/drive/) akan memungkinkan Anda untuk mengindeks file google drive anda di browser.
 
-skripnya : [worker-beta.js](https://github.com/kuro-creator/Google-Drive-Index/blob/main/worker/worker-beta.js). 
-
-Skrip ini adalah hasil redesain saya dari [ParveenBhadooOfficial](https://github.com/ParveenBhadooOfficial/Google-Drive-Index).
+[Skrip](https://github.com/kuro-creator/Google-Drive-Index/blob/main/worker/worker-beta.js) ini adalah hasil redesain saya dari [ParveenBhadooOfficial](https://github.com/ParveenBhadooOfficial/Google-Drive-Index).
 
 ## Situs Demo
 
