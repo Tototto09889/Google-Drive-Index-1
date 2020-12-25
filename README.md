@@ -17,10 +17,11 @@ skripnya ada di [worker-beta.js](https://github.com/kuro-creator/Google-Drive-In
 ## Deployment
 Buka salah satu link di bawah ini :
 
-https://install.achirou.workers.dev
-https://goindex-quick-install.glitch.me
-https://goindex-install.herokuapp.com
-https://generator.driveindex.ga
+- https://install.achirou.workers.dev
+- https://goindex-quick-install.glitch.me
+- https://goindex-install.herokuapp.com
+- https://generator.driveindex.ga
+
 Auth dan dapatkan kode
 
 Setelah itu buka [worker-beta.js](https://github.com/kuro-creator/Google-Drive-Index/blob/main/worker/worker-beta.js)
