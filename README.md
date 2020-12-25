@@ -30,7 +30,7 @@ Sesuaikan bagian ini dengan code yang sudah didapat tadi
 
 Config Dasar :
 
-	"siteName": "Bhadoo Drive Index", // Website name
+	"siteName": "Kuro Creator Index", // Website name
 	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
 	"client_secret": "ZNPZ-vS6N9Zjsyb_sNMZmXHL",
 	"refresh_token": "", // Authorize token
@@ -38,7 +38,7 @@ Config Dasar :
   
   	"roots": [{
 		"id": "",
-		"name": "Cloud Zero",
+		"name": "Index 1",
 		"user": "",
 		"pass": "",
 		"protect_file_link": false
@@ -58,13 +58,13 @@ Untuk lebih detailnya bisa tonton video ini [Watch Video](https://www.youtube.co
 "roots": [
 {
 	"id": "0BO_4Z3921k36Uk2PVA", // shared drive id or folder id
-	"name": "Cloud Zero", // nama drive
+	"name": "Index 1", // nama drive
 	"user": "admin", // username
 	"pass": "admin", // password
 	"protect_file_link": true }, // protects the direct links when true.
 {
    "id": "1jxK5rZxsov72dBGHB9h-R723_VWt8yc3",
-   "name": "Cloud One"
+   "name": "Index 2"
 }
 ],
 ````
@@ -76,15 +76,15 @@ Untuk lebih detailnya bisa tonton video ini [Watch Video](https://www.youtube.co
 * Lihat kode berikut untuk mengerti kustomisasinya.
 ````
 const uiConfig = {
-	"theme": "bhadoo_bootstrap", // Change doesn't works
+	"theme": "kuro_bootstrap", // Change doesn't works
 	"dark_mode": true, // Please select above theme before selecting here true or false
 	"version": "2.0", // don't touch this one. get latest code using generator at https://github.com/kuro-creator/Google-Drive-Index
 	"logo_image": false, // Site Logo Name, can also be replaced with Image using <img border="0" alt="Alternative Name" src="logo-url" height="30px">
 	"logo_link_name": "Light Demo", // if logo is true then link otherwise just text for name
-	"contact_link": "https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index", //Link to Contact Button on Menu
-	"copyright_year": "2050", // year of copyright, can be anything like 2015 - 2020 or just 2020
+	"contact_link": "https://github.com/kuro-creator/Google-Drive-Index", //Link to Contact Button on Menu
+	"copyright_year": "2020", // year of copyright, can be anything like 2015 - 2020 or just 2020
 	"company_name": "Search Google Web", // Name next to copyright
-	"company_link": "https://www.google.com/search?q=bhadoo-drive-index", // link of copyright name
+	"company_link": "https://www.google.com", // link of copyright name
 	"credit": true, // Set this to true to give us credit
   	"project1_name": "Project 1",
   	"project1_link": "https://",
