@@ -86,20 +86,20 @@ const uiConfig = {
 	"company_name": "Search Google Web", // Name next to copyright
 	"company_link": "https://www.google.com/search?q=bhadoo-drive-index", // link of copyright name
 	"credit": true, // Set this to true to give us credit
-  "project1_name": "Project 1",
-  "project1_link": "https://",
-  "project2_name": "Project 2",
-  "project2_link": "https://",
-  "project3_name": "Proect 3",
-  "project3_link": "https://",
-  "project4_name": "Project 4",
-  "project4_link": "https://",
-  "project5_name": "Project 5",
-  "project5_link": "https://",
-  "project6_name": "Project 6",
-  "project6_link": "https://",
-  "project7_name": "Project 7",
-  "project7_link": "https://",
+  	"project1_name": "Project 1",
+  	"project1_link": "https://",
+  	"project2_name": "Project 2",
+  	"project2_link": "https://",
+  	"project3_name": "Proect 3",
+  	"project3_link": "https://",
+  	"project4_name": "Project 4",
+  	"project4_link": "https://",
+  	"project5_name": "Project 5",
+  	"project5_link": "https://",
+  	"project6_name": "Project 6",
+  	"project6_link": "https://",
+  	"project7_name": "Project 7",
+  	"project7_link": "https://",
 };
 ````
 
