@@ -1,6 +1,6 @@
 
 /**
-* A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index
+* A Script Redesigned by Rahman from ParveenBhadooOfficial at https://github.com/kuro-creator/Google-Drive-Index
 */
 const authConfig = {
 	"siteName": "Kuro Creator Index", // Website name
@@ -62,7 +62,7 @@ const authConfig = {
  * web ui config
  */
 const uiConfig = {
-	"theme": "bhadoo_bootstrap", // Change doesn't works
+	"theme": "Kuro_bootstrap", // Change doesn't works
 	"dark_mode": true, // switch between light or dark themes
 	"version": "2.0.1", // don't touch this one. get latest code using generator at https://t.telegram.ind.in/vcnmxd
 	"logo_image": false, // true if you're using image link in next option.
