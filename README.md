@@ -1,2 +1,117 @@
-# Google-Drive-Index
-Indeks Google Drive + Cloudflare Worker
+# Google Personal/Shared Drive Index
+
+Menggabungkan [Cloudflare Workers](https://workers.cloudflare.com/) dan [Google Drive](https://www.google.com/drive/) akan memungkinkan Anda untuk mengindeks file google drive anda di browser.
+
+skripnya ada di [worker-beta.js](https://github.com/kuro-creator/Google-Drive-Index/blob/main/worker/worker-beta.js).
+
+## Demo Sites
+
+* [light-demo.ve.workers.dev](https://light-demo.ve.workers.dev)
+* [dark-demo.ve.workers.dev](https://dark-demo.ve.workers.dev)
+* [password-demo.ve.workers.dev](https://password-demo.ve.workers.dev) id and password are `admin` and `admin`
+
+## Baru
+* Tambah menu list project
+* Background keren
+
+## Deployment
+Buka salah satu link di bawah ini :
+
+https://install.achirou.workers.dev
+https://goindex-quick-install.glitch.me
+https://goindex-install.herokuapp.com
+https://generator.driveindex.ga
+Auth dan dapatkan kode
+
+Setelah itu buka [worker-beta.js](https://github.com/kuro-creator/Google-Drive-Index/blob/main/worker/worker-beta.js)
+
+Sesuaikan bagian ini dengan code yang sudah didapat tadi
+
+Config Dasar :
+
+	"siteName": "Bhadoo Drive Index", // Website name
+	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
+	"client_secret": "ZNPZ-vS6N9Zjsyb_sNMZmXHL",
+	"refresh_token": "", // Authorize token
+  
+  
+  	"roots": [{
+		"id": "",
+		"name": "Cloud Zero",
+		"user": "",
+		"pass": "",
+		"protect_file_link": false
+    
+Setelah sudah disesuaikan, deploy kode tsb ke Cloudflare Workers
+
+Untuk lebih detailnya bisa tonton video ini [Watch Video](https://www.youtube.com/watch?v=8WMddzVX1Dw&feature=youtu.be)
+
+## Contoh pengisian Config dasar
+
+	"siteName": "Kuro Creator Drive Index", // Website name
+	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
+	"client_secret": "ZNPZ-vS6N9Zjsyb_sNMZmXHL",
+	"refresh_token": "sNMZmXHLsNMZmXHLsNMZmXHLsNMZmXHLsNMZmXHLsNMZmXHL", // Authorize token
+
+````
+"roots": [
+{
+	"id": "0BO_4Z3921k36Uk2PVA", // shared drive id or folder id
+	"name": "Cloud Zero", // nama drive
+	"user": "admin", // username
+	"pass": "admin", // password
+	"protect_file_link": true }, // protects the direct links when true.
+{
+   "id": "1jxK5rZxsov72dBGHB9h-R723_VWt8yc3",
+   "name": "Cloud One"
+}
+],
+````
+
+## Brand Customization
+
+* Dalam rilisan ini, kamu dapat mengcustom indeks sesuai kebutuhanmu.
+* Di line ke 57. kamu dapat mengubah tema jadi dark mode atau light mode,di mana false adalah dark mode, dan true adalah light mode
+* Lihat kode berikut untuk mengerti kustomisasinya.
+````
+const uiConfig = {
+	"theme": "bhadoo_bootstrap", // Change doesn't works
+	"dark_mode": true, // Please select above theme before selecting here true or false
+	"version": "2.0", // don't touch this one. get latest code using generator at https://github.com/kuro-creator/Google-Drive-Index
+	"logo_image": false, // Site Logo Name, can also be replaced with Image using <img border="0" alt="Alternative Name" src="logo-url" height="30px">
+	"logo_link_name": "Light Demo", // if logo is true then link otherwise just text for name
+	"contact_link": "https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index", //Link to Contact Button on Menu
+	"copyright_year": "2050", // year of copyright, can be anything like 2015 - 2020 or just 2020
+	"company_name": "Search Google Web", // Name next to copyright
+	"company_link": "https://www.google.com/search?q=bhadoo-drive-index", // link of copyright name
+	"credit": true, // Set this to true to give us credit
+  "project1_name": "Project 1",
+  "project1_link": "https://",
+  "project2_name": "Project 2",
+  "project2_link": "https://",
+  "project3_name": "Proect 3",
+  "project3_link": "https://",
+  "project4_name": "Project 4",
+  "project4_link": "https://",
+  "project5_name": "Project 5",
+  "project5_link": "https://",
+  "project6_name": "Project 6",
+  "project6_link": "https://",
+  "project7_name": "Project 7",
+  "project7_link": "https://",
+};
+````
+
+## Search Limitations
+
+* Pencarian hanya bekerja kalau kamu menggunakan shared drive id atau root.
+* Pencarian tidak akan bekerja atau bar tidak akan muncul kalau kamu menggunakan folder id yang berada di dalam shared drive atau root, dan itu juga tidak akan bekerja jika menggunakan folder id yang berada di dalam my drive.
+
+
+## Credits
+
+* Source: [maple3142](https://github.com/maple3142/GDIndex)
+* Source: [yanzai](https://github.com/yanzai/goindex)
+* Source: [ParveenBhadooOfficial](https://github.com/ParveenBhadooOfficial/Google-Drive-Index)
+* New Design: [Bootstrap](https://getbootstrap.com)
+* Cloudflare: Workers
