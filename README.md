@@ -4,17 +4,17 @@ Menggabungkan [Cloudflare Workers](https://workers.cloudflare.com/) dan [Google 
 
 skripnya ada di [worker-beta.js](https://github.com/kuro-creator/Google-Drive-Index/blob/main/worker/worker-beta.js).
 
-## Demo Sites
+## Situs Demo
 
 * [light-demo.ve.workers.dev](https://light-demo.ve.workers.dev)
 * [dark-demo.ve.workers.dev](https://dark-demo.ve.workers.dev)
 * [password-demo.ve.workers.dev](https://password-demo.ve.workers.dev) id and password are `admin` and `admin`
 
-## Baru
+## Pembaharuan
 * Tambah menu list project
 * Background keren
 
-## Deployment
+## Cara Deploy
 Buka salah satu link di bawah ini :
 
 - https://install.achirou.workers.dev
@@ -69,7 +69,7 @@ Untuk lebih detailnya bisa tonton video ini [Watch Video](https://www.youtube.co
 ],
 ````
 
-## Brand Customization
+## Kustomisasi Brand
 
 * Dalam rilisan ini, kamu dapat mengcustom indeks sesuai kebutuhanmu.
 * Di line ke 57. kamu dapat mengubah tema jadi dark mode atau light mode,di mana false adalah dark mode, dan true adalah light mode
@@ -103,10 +103,11 @@ const uiConfig = {
 };
 ````
 
-## Search Limitations
+## bug
 
 * Pencarian hanya bekerja kalau kamu menggunakan shared drive id atau root.
 * Pencarian tidak akan bekerja atau bar tidak akan muncul kalau kamu menggunakan folder id yang berada di dalam shared drive atau root, dan itu juga tidak akan bekerja jika menggunakan folder id yang berada di dalam my drive.
+* Nama websitenya malah jadi current path
 
 
 ## Credits
