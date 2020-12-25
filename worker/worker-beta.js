@@ -25,7 +25,7 @@ const authConfig = {
       "name": "Index 1",
       "user": "admin",
       "pass": "admin",
-      "protect_file_link": false
+      "protect_file_link": false, // set true kalo misalnya mau downloadnya juga masukin password, false kalo gak usah
     },
     {
       "id": "root",
