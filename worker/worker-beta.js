@@ -1,5 +1,5 @@
 /**
-* A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index
+* A Script Redesigned by Rahman Ackerman forked from https://github.com/ParveenBhadooOfficial/Google-Drive-Index
 */
 const authConfig = {
 	"siteName": "Kuro Creator Index", // Website name
