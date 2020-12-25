@@ -21,8 +21,11 @@ const authConfig = {
 	 */
 		"roots": [
     {
-      "id": "root",
+      "id": "root", // example :"id": "0ALC0ToJwdk3UUV6PVA",
       "name": "Index 1",
+      "user": "admin",
+      "pass": "admin",
+      "protect_file_link": false
     },
     {
       "id": "root",
@@ -142,7 +145,7 @@ function html(current_drive_order = 0, model = {}) {
   <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/mdui.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>
 </head>
-<body style="background-image: url('https://wallpapercave.com/wp/wp2953632.jpg');">
+<body style="background-image: url('https://www.3wallpapers.fr/wp-content/uploads/2019/03/iPhone-wallpaper-abstract-dark-mosaic.png');">
     <br>
 </body>
 <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/bootstrap.min.js"></script>
