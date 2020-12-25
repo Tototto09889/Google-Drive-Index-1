@@ -2,13 +2,13 @@
 
 Menggabungkan [Cloudflare Workers](https://workers.cloudflare.com/) dan [Google Drive](https://www.google.com/drive/) akan memungkinkan Anda untuk mengindeks file google drive anda di browser.
 
-skripnya ada di [worker-beta.js](https://github.com/kuro-creator/Google-Drive-Index/blob/main/worker/worker-beta.js).
+skripnya ada di [worker-beta.js](https://github.com/kuro-creator/Google-Drive-Index/blob/main/worker/worker-beta.js). Skrip ini adalah hasil redesain saya dari [ParveenBhadooOfficial](https://github.com/ParveenBhadooOfficial/Google-Drive-Index).
 
 ## Situs Demo
 
-* [light-demo.ve.workers.dev](https://light-demo.ve.workers.dev)
-* [dark-demo.ve.workers.dev](https://dark-demo.ve.workers.dev)
-* [password-demo.ve.workers.dev](https://password-demo.ve.workers.dev) id and password are `admin` and `admin`
+* [Light Mode Demo](https://light.floral.workers.dev/0:/) (Kalian bisa ganti sendiri backgroundnya)
+* [Dark Mode Demo] (hhttps://dark.floral.workers.dev/0:/)
+* [Password Demo](https://pass.floral.workers.dev/0:/) id dan passwordnya adalah `admin` and `admin`
 
 ## Pembaharuan
 * Tambah menu list project
