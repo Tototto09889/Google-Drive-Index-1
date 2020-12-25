@@ -1,4 +1,4 @@
-# Google Personal/Shared Drive Index
+# Google Drive Index
 
 Menggabungkan [Cloudflare Workers](https://workers.cloudflare.com/) dan [Google Drive](https://www.google.com/drive/) akan memungkinkan Anda untuk mengindeks file google drive anda di browser.
 
