@@ -1,6 +1,5 @@
-
 /**
-* A Script Redesigned by Rahman from ParveenBhadooOfficial at https://github.com/kuro-creator/Google-Drive-Index
+* A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index
 */
 const authConfig = {
 	"siteName": "Kuro Creator Index", // Website name
@@ -22,15 +21,12 @@ const authConfig = {
 	 */
 		"roots": [
     {
-      "id": "",
-      "name": "",
+      "id": "root",
+      "name": "Index 1",
     },
     {
-      "id": "",
-      "name": "",
-	  "user": "admin",
-	  "pass": "admin",
-	  "protect_file_link": false
+      "id": "root",
+      "name": "Index 2",
     }
   ],
 	/**
@@ -63,7 +59,7 @@ const authConfig = {
  */
 const uiConfig = {
 	"theme": "Kuro_bootstrap", // Change doesn't works
-	"dark_mode": true, // switch between light or dark themes
+	"dark_mode": false, // switch between light or dark themes
 	"version": "2.0.1", // don't touch this one. get latest code using generator at https://t.telegram.ind.in/vcnmxd
 	"logo_image": false, // true if you're using image link in next option.
 	"logo_link_name": "Kuro Creator Index", // if logo is true then link otherwise just text for name
@@ -73,7 +69,7 @@ const uiConfig = {
 	"company_link": "http://bit.ly/34Ahz1N", // link of copyright name
 	"credit": true, // Set this to true to give us credit
     "project1_name": ">Project 1",
-    "project1_link": "",
+    "project1_link": "https://example.com",
     "project2_name": ">Project 2",
     "project2_link": "",
     "project3_name": ">Project 3",
@@ -139,17 +135,17 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Tototto09889/Google-Drive-Index@${uiConfig.version}/css/mdui-style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/css/mdui-style.css">
   <script src="https://cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Tototto09889/Google-Drive-Index@${uiConfig.version}/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/Tototto09889/testing/apps.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/Tototto09889/Google-Drive-Index@${uiConfig.version}/js/mdui.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
+  <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/app%20indeks.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/mdui.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>
 </head>
-<body style="background-image: url('https://www.3wallpapers.fr/wp-content/uploads/2019/03/iPhone-wallpaper-abstract-dark-mosaic.png');">
+<body style="background-image: url('https://wallpapercave.com/wp/wp2953632.jpg');">
     <br>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/Tototto09889/Google-Drive-Index@${uiConfig.version}/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/bootstrap.min.js"></script>
 </html>`;
 };
 
