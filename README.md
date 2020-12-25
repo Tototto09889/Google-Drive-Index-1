@@ -8,8 +8,8 @@ Skrip ini adalah hasil redesain saya dari [ParveenBhadooOfficial](https://github
 
 ## Situs Demo
 
-* [Light Mode Demo](https://light.floral.workers.dev/0:/) (Kalian bisa ganti sendiri backgroundnya)
-* [Dark Mode Demo] (hhttps://dark.floral.workers.dev/0:/)
+* [Light Mode Demo](https://light.floral.workers.dev/0:/) ganti sendiri backgroundnya
+* [Dark Mode Demo](hhttps://dark.floral.workers.dev/0:/)
 * [Password Demo](https://pass.floral.workers.dev/0:/) id dan passwordnya adalah `admin` and `admin`
 
 ## Pembaharuan
