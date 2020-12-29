@@ -73,9 +73,9 @@ function title(path) {
 	// $('title').html(document.siteName + ' - ' + path);
 	var model = window.MODEL;
 	if (model.is_search_page)
-		(`$('title').html - ${'drive_name} - Search results for ${model.q} `);
+	$('title').html(${drive_name} - Search results for ${model.q});
 	else
-		(`$('title').html - ${'drive_name} - ${path}`);
+		$('title').html(${drive_name} - ${path});
 }
 
 // Render the navigation bar
