@@ -1,7 +1,7 @@
 // Redesigned by t.me/zxcxzcx from https://github.com/kuro-creator/Google-Drive-Index which was written by someone else, credits are given on Source Page.
 // Initialize the page
 function init() {
-	document.siteName = $('title').html();
+	document.siteName = $('title').html(`${drive_name} - ${path}`);
 	var html = `
 <header >
    <div id="nav">
@@ -72,9 +72,9 @@ function title(path) {
 	// $('title').html(document.siteName + ' - ' + path);
 	var model = window.MODEL;
 	if (model.is_search_page)
-		$('title').html('${drive_name} - Search results for ${model.q} ');
+		$('title').html(`${drive_name} - Search results for ${model.q} `);
 	else
-		$('title').html - ('${drive_name} - ${path}');
+		$('title').html(`${drive_name} - ${path}`);
 }
 
 // Render the navigation bar
