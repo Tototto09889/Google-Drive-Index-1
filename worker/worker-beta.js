@@ -138,10 +138,10 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/css/mdui-style.css">
-  <script src="https://cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/css/mdui-style.min.css">
+  <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/app%20indeks.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/apps%20benar.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/mdui.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>
 </head>
