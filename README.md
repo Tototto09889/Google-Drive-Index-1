@@ -15,35 +15,13 @@ Menggabungkan [Cloudflare Workers](https://workers.cloudflare.com/) dan [Google 
 * Background keren
 
 ## Cara Deploy
-Buka salah satu link di bawah ini :
+Buka link di bawah ini :
 
-- https://install.achirou.workers.dev
-- https://goindex-quick-install.glitch.me
-- https://goindex-install.herokuapp.com
-- https://generator.driveindex.ga
+- https://indexgenerator.floral.workers.dev/
 
 Auth dan dapatkan kode
-
-Setelah itu buka [worker-beta.js](https://github.com/kuro-creator/Google-Drive-Index/blob/main/worker/worker-beta.js)
-
-Sesuaikan bagian ini dengan code yang sudah didapat tadi
-
-Config Dasar :
-
-	"siteName": "Kuro Creator Index", // Website name
-	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
-	"client_secret": "ZNPZ-vS6N9Zjsyb_sNMZmXHL",
-	"refresh_token": "", // Authorize token
-  
-  
-  	"roots": [{
-		"id": "",
-		"name": "Index 1",
-		"user": "",
-		"pass": "",
-		"protect_file_link": false
     
-Setelah sudah disesuaikan, deploy kode tsb ke Cloudflare Workers
+Setelah itu, deploy kode tsb ke Cloudflare Workers
 
 Untuk lebih detailnya bisa tonton video ini [Watch Video](https://www.youtube.com/watch?v=8WMddzVX1Dw&feature=youtu.be)
 
