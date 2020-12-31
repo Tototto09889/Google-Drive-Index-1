@@ -74,7 +74,7 @@ function title(path) {
 	// $('title').html(document.siteName + ' - ' + path);
 	var model = window.MODEL;
         if (model.is_search_page)
-          $('title').html(`${document.siteName} - Search Result for ${model.q} `);
+          $('title').html(`Search Result for ${model.q} | ${document.siteName}`);
         else
           $('title').html(`${document.siteName} | ${drive_name} - ${path}`);
 }
@@ -214,12 +214,7 @@ function list(path) {
   </div>
   </div>
   <div class="card">
-  <div id="readme_md" style="padding: 20px 20px;"><h4>Hallo Guys...</h4>
-  <ul>
-  <li>Ini adalah halaman index untuk team drive wibudrive.</li>
-  <li>Kalau ada masalah bisa kontak saya via <a href="https://t.telegram.ind.in/zxcxzcx">Telegram</a></li>
-  <li>Tolong jangan menyalahgunakan layanan gratis ini.</li>
-  </ul>
+  <div id="readme_md" style="display:none; padding: 20px 20px;"></div>
   </div>
   </div>
   `;
