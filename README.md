@@ -81,13 +81,6 @@ const uiConfig = {
 };
 ````
 
-## bug
-
-* Pencarian hanya bekerja kalau kamu menggunakan shared drive id atau root.
-* Pencarian tidak akan bekerja atau bar tidak akan muncul kalau kamu menggunakan folder id yang berada di dalam shared drive atau root, dan itu juga tidak akan bekerja jika menggunakan folder id yang berada di dalam my drive.
-* Nama websitenya malah jadi current path
-
-
 ## Credits
 
 * Source: [maple3142](https://github.com/maple3142/GDIndex)
