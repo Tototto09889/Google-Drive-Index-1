@@ -3,8 +3,8 @@
 */
 const authConfig = {
 	"siteName": "Kuro Creator Index", // Website name
-	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
-	"client_secret": "ZNPZ-vS6N9Zjsyb_sNMZmXHL",
+	"client_id": "1086473154914-t4uus5s84asc63kbtqed8bmt9gknjn6i.apps.googleusercontent.com",
+	"client_secret": "0h2144SU2uAGk-p9KkEhQVEX",
 	"refresh_token": "", // Authorize token
 	/**
 	 * Set up multiple Drives to display; add multiples by format
@@ -23,13 +23,13 @@ const authConfig = {
     {
       "id": "root", // example :"id": "0ALC0ToJwdk3UUV6PVA",
       "name": "Index 1",
-      "user": "admin",
-      "pass": "admin",
-      "protect_file_link": false, // set true kalo misalnya mau downloadnya juga masukin password, false kalo gak usah
     },
     {
       "id": "root",
       "name": "Index 2",
+      "user": "admin",
+      "pass": "admin",
+      "protect_file_link": false, // set true kalo misalnya mau downloadnya juga masukin password, false kalo gak usah
     }
   ],
 	/**
@@ -141,7 +141,7 @@ function html(current_drive_order = 0, model = {}) {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/css/mdui-style.min.css">
   <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/apps%20baru.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/apps.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/mdui.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>
 </head>
