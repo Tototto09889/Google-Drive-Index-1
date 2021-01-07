@@ -63,8 +63,10 @@ const authConfig = {
 const uiConfig = {
 	"theme": "Kuro_bootstrap", // Change doesn't works
 	"dark_mode": false, // switch between light or dark themes
-	"version": "2.0.1", // don't touch this one. get latest code using generator at https://t.telegram.ind.in/vcnmxd
+	"version": "2.0.1", // don't touch this one. get latest code using generator
 	"logo_image": false, // true if you're using image link in next option.
+	"logo_height": "", // only if logo_image is true
+	"logo_width": "100px", // only if logo_image is true
 	"logo_link_name": "Kuro Creator Index", // if logo is true then link otherwise just text for name
 	"contact_link": "https://bit.ly/3hbjqiQ", // Link to Contact Button on Menu
 	"copyright_year": "2020", // year of copyright, can be anything like 2015 - 2020 or just 2020
@@ -141,7 +143,7 @@ function html(current_drive_order = 0, model = {}) {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/css/mdui-style.min.css">
   <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/apps.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/kuro-creator/Google-Drive-Index/js/mdui.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>
 </head>
