@@ -74,7 +74,7 @@ function title(path) {
         if (model.is_search_page)
           $('title').html(`${document.siteName} - Search Result for ${model.q} `);
         else
-          $('title').html(`${document.siteName} | ${drive_name} - ${path}`);
+          $('title').html(`${document.siteName} | ${drive_name}`);
 }
 
 // Render the navigation bar
